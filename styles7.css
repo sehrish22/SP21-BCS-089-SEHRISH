@@ -1,0 +1,12 @@
+div:hover {
+    border: 5px dotted pink;
+    margin: 5px;
+    color: red;
+}
+a:hover {
+    color: pink;
+}
+p::first-line{
+    font-size: large;
+    color: blueviolet;
+}
