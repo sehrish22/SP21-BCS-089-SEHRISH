@@ -1,0 +1,29 @@
+#personal{
+    color: blueviolet;
+}
+.mine{
+    color: brown;
+}
+h1.yours{
+    color: aquamarine;
+}
+div{
+    color: rebeccapurple;
+}
+span{
+    color: yellow;
+}
+h2 i{
+    color: aquamarine;
+}
+h3>b{
+    color: aqua;
+}
+h4>i{
+    color: aqua;
+}
+#sehrish{
+    border: 2em solid pink;
+    padding: 2em;
+    margin: 50px;
+}
