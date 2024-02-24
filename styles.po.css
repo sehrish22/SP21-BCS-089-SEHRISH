@@ -1,0 +1,26 @@
+#fix{
+    position: fixed;
+    top: 0;
+    right: 0;
+    color: blueviolet;
+    background-color: aqua;
+}
+#second{
+    position: relative;
+    top: 10px;
+    color: aquamarine;
+    background-color: black;
+}
+#forth{
+    position: sticky;
+    color: aqua;
+    background-color: brown;
+    top: 0;
+}
+#fifth{
+    position: relative;
+}
+b{
+    position: absolute;
+    bottom: 0;
+}

@@ -1,0 +1,9 @@
+.mine{
+    float: right;
+    overflow: hidden;
+    color: aquamarine;
+    width: 20%;
+}
+div{
+    overflow: hidden;
+}
