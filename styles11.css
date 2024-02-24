@@ -1,0 +1,10 @@
+#outer{
+    display: flex;
+    background-color: magenta;
+    flex-direction: column;
+}
+.hi{
+    background-color: aqua;
+    padding: 2%;
+    margin: 2%;
+}
