@@ -1,0 +1,64 @@
+.outer{
+    display: flex;
+    justify-content: center;
+}
+#first{
+    position: relative;
+    background-color: wheat;
+    padding: 2%;
+    flex-grow: 25%;
+    margin-left: 25%;
+    border: 5px solid black;
+    padding-top: 15%;
+
+}
+#second{
+    position: relative;
+    background-color: white;
+    padding: 2%;
+    flex-grow: 25%;
+    margin-right: 25%;
+    border: 5px solid black;
+    padding-top: 15%;
+
+}
+.third{
+    position: absolute;
+    top: 9;
+    background-color: bisque;
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+
+}
+.w3-round{
+    height:24px;
+    width:85%;
+    background-color: brown;
+}
+.w4-round{
+    background-color: grey;
+}
+.w2-round{
+    background-color: grey;
+}
+.w1-round{
+    height:24px;
+    width:90%;
+    background-color: brown;
+}
+img{
+    height: 10%;
+    width: 20%;
+}
+#photo{
+    float: left;
+}
+#outer{
+    position: relative;
+}
+#inner{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
