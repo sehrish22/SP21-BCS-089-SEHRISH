@@ -23,8 +23,10 @@
 
 }
 .third{
+    display: flex;
+    flex-direction: row;
     position: absolute;
-    top: 9;
+    top: 1;
     background-color: bisque;
     margin-left: 35%;
     margin-right: 35%;
@@ -59,6 +61,4 @@ img{
 }
 #inner{
     position: absolute;
-    left: 0;
-    top: 0;
 }
