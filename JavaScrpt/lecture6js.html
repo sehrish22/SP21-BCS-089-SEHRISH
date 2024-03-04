@@ -6,7 +6,13 @@
 </head>
 <body>
     <script src="6eventbinding.js"></script>
-    <button onclick="btnclick()">click me</button>
+    <button onclick="btnclick()"
+            onmouseover="console.log('i am on mouse')"
+            onmouseout="console.log('iamout')" 
+            >click me</button>
+            <input type="text" id="myinput">
+            <button onclick="update()" >result</button>
+            <span id="output">result is here shown</span>        
 </body>
 
 </html>
