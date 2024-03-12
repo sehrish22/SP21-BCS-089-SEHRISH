@@ -1,4 +1,12 @@
 
 p{
     text-align: center;
+    margin: auto;
+    width: 50%;
+
+}
+
+.first{
+    height: 35px;
+    padding: 5px;
 }
