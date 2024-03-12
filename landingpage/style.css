@@ -10,3 +10,60 @@ p{
     height: 35px;
     padding: 5px;
 }
+
+#log{
+    float: right;
+    width: 10%;
+    background-color: antiquewhite;
+}
+#search{
+    float: right;
+    width: 10%;
+    background-color: blue;
+}
+#cart{
+    float: right;
+    width: 10%;
+    background-color: blueviolet;
+}
+#imag{
+    float: right;
+    width: 70%;
+    background-color: blue;
+}
+#featured{
+    text-align: center;
+}
+.out{
+    position: sticky;
+}
+.last{
+    background-color: black;
+    color: white;
+}
+#t1{
+    float: left;
+    width: 25%;
+    background-color: black;
+    color: white;
+}
+#t2{
+    float: left;
+    width: 25%;
+    background-color: black;
+    color: white;
+}#t3{
+    float: left;
+    width: 25%;
+    background-color: black;
+    color: white;
+}#t4{
+    float: left;
+    width: 25%;
+    background-color: black;
+    color: white;
+}
+#sub{
+    background-color: burlywood;
+    color: white;
+}
