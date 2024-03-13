@@ -80,3 +80,47 @@ p{
     text-align: center;
     
 }
+
+.mid{
+
+    
+    display: flex;
+    width: 100%;
+    border: 5px solid black;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 200vh;
+
+}
+
+.items{
+
+    position: relative; 
+    width: 33.33%;
+    border: 2px solid black;
+    height: 100vh;
+
+}
+
+.bg-1{
+    position: absolute;
+    background-image: url("./images/image1.jpeg");
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: -99;
+
+}
+
+.txt-1{
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    z-index: 100;
+    background-color: rgba(8, 8, 8, 0.589);
+    bottom: 0px;
+
+}
+
