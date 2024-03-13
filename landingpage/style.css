@@ -15,21 +15,26 @@ p{
     float: right;
     width: 10%;
     background-color: antiquewhite;
+    padding-bottom: 73px;
 }
 #search{
     float: right;
     width: 10%;
     background-color: blue;
+    padding-bottom: 73px;
 }
 #cart{
     float: right;
     width: 10%;
     background-color: blueviolet;
+    padding-bottom: 73px;
+
 }
 #imag{
     float: right;
     width: 70%;
     background-color: blue;
+    padding-left: 20%;
 }
 #featured{
     text-align: center;
@@ -46,24 +51,32 @@ p{
     width: 25%;
     background-color: black;
     color: white;
+    
 }
 #t2{
     float: left;
     width: 25%;
     background-color: black;
     color: white;
+    padding-bottom: 144px;
 }#t3{
     float: left;
     width: 25%;
     background-color: black;
     color: white;
+    padding-bottom: 120px;
 }#t4{
     float: left;
     width: 25%;
     background-color: black;
     color: white;
+    padding-bottom: 276px;
 }
 #sub{
     background-color: burlywood;
     color: white;
+}
+#h1{
+    text-align: center;
+    
 }
