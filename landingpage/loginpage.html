@@ -4,10 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
 </head>
 <body >
-    <form action="./new.html" method="POST">
-        <input type="text" name="" id="">
+    <link rel="stylesheet" href="form.css">
+   <div class="container">
+    <h1>CONTACT US</h1>
+    <form id="contactForm">
+        <div>
+            <input type="text" name="name" id="name" placeholder="Your Name"> 
+            <span id="nameError" class="error"></span>
+        </div>
+        <div>
+            <input type="email" name="email" id="email" placeholder="Your Email">
+            <span id="emailError" class="error"></span>
+        </div>
+        <div>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            <span id="messageError" class="error"></span>
+        </div> 
+        <input type="submit" value="Submit">
     </form>
+   </div>
+   
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script>
+    $(document).ready(function(){
+            $('#contactForm').submit(function(event){
+                event.preventDefault();
+                var name=$('#name').val();
+                var email=$('#email').val();
+                var message=$('#message').val();
+                $('.error').text('')
+                if(name.trim()==='')
+                {
+                  $('#nameError').text('PLEASE ENTER YOUR NAME')
+                  return
+
+                }
+                if(email.trim()==='')
+                {
+                  $('#emailError').text('PLEASE ENTER YOUR EMAIL')
+                  return
+
+                }if(message.trim()==='')
+                {
+                  $('#messageError').text('PLEASE ENTER YOUR MESSAGE')
+                  return
+
+                }
+                alert('Form Submitted successfuly')
+
+            })
+
+
+
+    })
+   </script>
+
 </body>
 </html>
