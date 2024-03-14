@@ -45,6 +45,7 @@ p{
 }
 .out{
     position: sticky;
+    top: 0;
 }
 .last{
     background-color: black;
@@ -86,14 +87,11 @@ p{
 }
 
 .mid{
-
-    
     display: flex;
     width: 100%;
     border: 5px solid black;
     flex-wrap: wrap;
     flex-direction: row;
-
 }
 
 .items{
@@ -347,17 +345,20 @@ p{
 }
 .ins{
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
     border: 2px solid black;
-    height: 70vh;
 }
+
 .inst{
+    
     height: 200px;
     width: 200px;
 
 }
 .inn{
     width: 200px;
+    height: 200px;
+    border: 2px solid black;
 }
