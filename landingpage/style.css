@@ -22,35 +22,43 @@ p{
 #log{
     float: right;
     width: 10%;
-    background-color: antiquewhite;
-    padding-bottom: 73px;
+    background-color: white;
+
+    padding-top: 3%;
+    padding-bottom: 2.8%;
 }
 #search{
     float: right;
     width: 10%;
-    background-color: blue;
-    padding-bottom: 73px;
+    background-color: white;
+    
+    padding-top: 3%;
+    padding-bottom: 2.8%;
 }
 #cart{
     float: right;
     width: 10%;
-    background-color: blueviolet;
-    padding-bottom: 73px;
+    background-color: white;
+    padding-top: 3%;
+    padding-bottom: 2.8%;
 
 }
 #imag{
     float: right;
     width: 70%;
-    background-color: blue;
+    background-color: white;
     padding-left: 20%;
 }
 #featured{
     text-align: center;
+    background-color: white;
 }
 .out{
     position: sticky;
     top: 0;
     z-index: 10;
+    background-color: aliceblue;
+    
 }
 .last{
     background-color: black;
@@ -94,7 +102,6 @@ p{
 .mid{
     display: flex;
     width: 100%;
-    border: 5px solid black;
     flex-wrap: wrap;
     flex-direction: row;
 }
@@ -103,7 +110,6 @@ p{
 
     position: relative; 
     width: 33.33%;
-    border: 2px solid black;
     height: 100vh;
 
 }
@@ -122,7 +128,6 @@ p{
 }
 .trans{
     display: flex;
-    border: 2px solid blue;
     height: 100vh;
     width: 100%;
     justify-content: center;
@@ -131,7 +136,6 @@ p{
 }
 .centr{
     text-align: center;
-    border: 2px solid pink;
     width: 20%;
     height: 60%;
     padding: 30px 10px 30px 10px ;
@@ -151,6 +155,7 @@ p{
 }
 
 .txt-1{
+    padding-top: 50px;
     position: absolute;
     height: 40%;
     width: 100%;
@@ -159,6 +164,7 @@ p{
     bottom: 0px;
     text-align: center;
     color: white;
+    z-index: -10;
 }
 .bg-2{
     position: absolute;
@@ -271,11 +277,8 @@ p{
 
 }
 .bottom{
-
-    
     display: flex;
     width: 100%;
-    border: 5px solid black;
     flex-wrap: wrap;
     flex-direction: row;
 }
@@ -383,7 +386,6 @@ p{
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    border: 2px solid black;
 }
 
 .inst{
@@ -395,12 +397,10 @@ p{
 .inn{
     width: 200px;
     height: 200px;
-    border: 2px solid black;
 }
 
 .footer{
     height: 100vh;
-    border: 2px solid black;
     width: 100%;
     background-color: white;
     display: flex;
@@ -415,7 +415,6 @@ p{
 
 .f1, .f2, .f3, .f4{
     width: 25%;
-    border: 2px solid black;
     height: 90%;
     padding: 10px;
     
@@ -444,11 +443,19 @@ p{
 
 .nav{
     width: 100%;
-    border: 2px solid black;
     height: 15vh;
     background-color: white;
+    text-align: center;
 }
 
 .navbar{
     width: 100%;
+    text-align: center;
+}
+.row{
+    background-color: white;
+}
+.news{
+    background-color: white;
+    text-align: center;
 }
