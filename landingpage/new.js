@@ -1,3 +1,4 @@
+
 // Function to fetch and display stories
 function displayStories() {
     $.ajax({
@@ -7,9 +8,9 @@ function displayStories() {
       success: function (data) {
         var storiesList = $("#storiesList");
         storiesList.empty();
+  
         $.each(data, function (index, story) {
           storiesList.append(
-            
             `<div class="mb-3">
                   <h3>${story.title}</h3>
                   <div>${story.content}</div>
@@ -110,3 +111,4 @@ function displayStories() {
       $("#createContent").val("");
     });
   });
+  
