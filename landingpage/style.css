@@ -24,31 +24,30 @@ p{
     float: right;
     width: 10%;
     background-color: white;
-
     padding-top: 3%;
-    padding-bottom: 2.8%;
+    padding-bottom: 5.25%;
 }
 #search{
     float: right;
     width: 10%;
     background-color: white;
-    
     padding-top: 3%;
-    padding-bottom: 2.8%;
+    padding-bottom: 5.25%;
 }
 #cart{
     float: right;
     width: 10%;
     background-color: white;
     padding-top: 3%;
-    padding-bottom: 2.8%;
-
+    padding-bottom: 5.25%;
 }
 #imag{
     float: right;
     width: 70%;
     background-color: white;
     padding-left: 20%;
+    padding-bottom: 1%;
+    padding-top: 1%;
 }
 #featured{
     text-align: center;
@@ -116,7 +115,7 @@ p{
 }
 
 .backimg{
-    background-image: url("./images/image1.jpeg");
+    background-image: url("./images/background.webp");
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -145,7 +144,7 @@ p{
 }
 .bg-1{
     position: absolute;
-    background-image: url("./images/image1.jpeg");
+    background-image: url("./images/image1.webp");
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -169,7 +168,7 @@ p{
 }
 .bg-2{
     position: absolute;
-    background-image: url("./images/image2.jpeg");
+    background-image: url("./images/image2.webp");
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -180,7 +179,7 @@ p{
 }
 .bg-3{
     position: absolute;
-    background-image: url("./images/image3.jpeg");
+    background-image: url("./images/image3.webp");
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -191,7 +190,7 @@ p{
 }
 .bg-4{
     position: absolute;
-    background-image: url("./images/image4.jpeg");
+    background-image: url("./images/image4.webp");
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -202,7 +201,7 @@ p{
 }
 .bg-5{
     position: absolute;
-    background-image: url("./images/image5.jpeg");
+    background-image: url("./images/image5.webp");
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -213,7 +212,7 @@ p{
 }
 .bg-6{
     position: absolute;
-    background-image: url("./images/image6.jpeg");
+    background-image: url("./images/image6.webp");
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -224,7 +223,7 @@ p{
 }
 .bg-7{
     position: absolute;
-    background-image: url("./images/image6.jpeg");
+    background-image: url("./images/image6.webp");
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -235,7 +234,7 @@ p{
 }
 .bg-8{
     position: absolute;
-    background-image: url("./images/image8.jpeg");
+    background-image: url("./images/image8.webp");
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -246,7 +245,7 @@ p{
 }
 .bg-9{
     position: absolute;
-    background-image: url("./images/image9.jpeg");
+    background-image: url("./images/image9.webp");
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -257,7 +256,7 @@ p{
 }
 .bg-10{
     position: absolute;
-    background-image: url("./images/image10.jpeg");
+    background-image: url("./images/image10.webp");
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -268,7 +267,7 @@ p{
 }
 .bg-11{
     position: absolute;
-    background-image: url("./images/image11.jpeg");
+    background-image: url("./images/image11.webp");
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -285,7 +284,7 @@ p{
 }
 .bgg-1{
     position: absolute;
-    background-image: url("./images/face.jpeg");
+    background-image: url("./images/i1.webp");
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -296,7 +295,7 @@ p{
 }
 .bgg-2{
     position: absolute;
-    background-image: url("./images/eyes.jpeg");
+    background-image: url("./images/i2.webp");
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -307,7 +306,7 @@ p{
 }
 .bgg-3{
     position: absolute;
-    background-image: url("./images/lisp.jpeg");
+    background-image: url("./images/image8.webp");
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -318,7 +317,7 @@ p{
 }
 .bgg-4{
     position: absolute;
-    background-image: url("./images/cheeks.jpeg");
+    background-image: url("./images/i4.webp");
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -329,7 +328,7 @@ p{
 }
 .bgg-5{
     position: absolute;
-    background-image: url("./images/mascara.jpeg");
+    background-image: url("./images/i5.webp");
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -340,7 +339,7 @@ p{
 }
 .bgg-6{
     position: absolute;
-    background-image: url("./images/brushes.jpeg");
+    background-image: url("./images/i6.png");
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -351,7 +350,7 @@ p{
 }
 .bgg-7{
     position: absolute;
-    background-image: url("./images/serum.jpeg");
+    background-image: url("./images/i7.webp");
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -362,7 +361,7 @@ p{
 }
 .bgg-8{
     position: absolute;
-    background-image: url("./images/image11.jpeg");
+    background-image: url("./images/i8.webp");
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -373,7 +372,7 @@ p{
 }
 .bgg-9{
     position: absolute;
-    background-image: url("./images/eyemake.jpeg");
+    background-image: url("./images/i9.webp");
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -459,4 +458,7 @@ p{
 .news{
     background-color: white;
     text-align: center;
+}
+.links{
+    padding-left: 15%;
 }
