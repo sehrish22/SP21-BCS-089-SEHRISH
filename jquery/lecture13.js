@@ -1,11 +1,16 @@
 $(function () {
   loadproducts();
   $("#products").on("click", ".btn-danger", deleteproducts);
+  $("#addpro").click(addproducts);
 });
 function loadproducts() {
   $.ajax({
     url: "https://usmanlive.com/wp-json/api/stories",
     method: "GET",
+    error: function (response) {
+      var products = $("#products");
+      products.html("Error Occured");
+    },
     success: function (response) {
       var products = $("#products");
       products.empty();
@@ -37,9 +42,23 @@ function deleteproducts() {
   let id = parDiv.attr("data-id");
   console.log(id);
   $.ajax({
-    url: "https://usmanlive.com/wp-json/api/stories" + id,
+    url: "https://usmanlive.com/wp-json/api/stories/" + id,
     method: "DELETE",
     success: function () {
+      loadproducts();
+    },
+  });
+}
+function addproducts() {
+  var title = $("#createTitle").val();
+  var descrip = $("#createContent").val();
+  $.ajax({
+    url: "https://usmanlive.com/wp-json/api/stories",
+    method: "POST",
+    data: { title: createTitle, body: createContent },
+    success: function (response) {
+      $("#createTitle").val("");
+      $("#createContent").val("");
       loadproducts();
     },
   });

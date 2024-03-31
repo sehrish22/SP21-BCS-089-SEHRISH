@@ -18,9 +18,21 @@
   </head>
   <body class="container">
     <h1>
-      API GET CALL PRACTICE
-      <button class="btn btn-info -btn-xl">Add new product</button>
-    </h1>
+      API GET CALL PRACTICE</h1>
+       <form id="createForm">
+        <div class="form-group">
+            <label for="createTitle">PRODUCT</label>
+            <input type="text" class="form-control" id="createTitle" required placeholder="product">
+        </div>
+        <div class="form-group">
+            <label for="createContent">DESCRIPTION</label>
+            <textarea class="form-control" id="createContent" rows="3" required placeholder="description of product"></textarea>
+        </div>
+      </form><br>
+        
+      <button id="addpro" class="btn btn-info -btn-xl">Add new product</button>
+
+    
     <div id="products">your data will appear here</div>
   </body>
 </html>
