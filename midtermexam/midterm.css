@@ -1,0 +1,26 @@
+#mm{
+    font-size: 50%;
+    text-align: center;
+}
+.fist{
+    height: 10vh;
+    background-color: antiquewhite;
+}
+.second{
+    text-align: center;
+}
+.third{
+    background-color: black;
+    height: 10vh;
+}
+.pehla{
+    position: sticky;
+    top: 0;
+}
+.secondlast{
+    text-align: center;
+    padding-left: 30%;
+}
+.thirdlast{
+    text-align: center;
+}
