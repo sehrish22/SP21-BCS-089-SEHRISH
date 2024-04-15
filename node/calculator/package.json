@@ -1,0 +1,15 @@
+{
+  "name": "sehrish-calculator",
+  "version": "1.0.0",
+  "description": "this is sehrish calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sum",
+    "sub"
+  ],
+  "author": "sehrish",
+  "license": "ISC"
+}

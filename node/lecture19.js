@@ -78,3 +78,5 @@ function gettinghouse(house,street,area){
     console.log("house "+house+" is located in street "+street+ " in "+area);
 }
 gettinghouse(house,street,area);
+// let obj = address.find(p=>p.house=="f/5");
+// console.log(obj);
