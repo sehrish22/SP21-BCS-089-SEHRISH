@@ -1,7 +1,8 @@
-.main{
+#main{
     background-image: url(./images/i5.jpg);
     background-repeat: no-repeat;
-    height: 150%;
+    height: 200vh;
+    width: 200vh;
     z-index: -10;
 }
 #storiesList{
