@@ -2,6 +2,7 @@ $(function () {
   loadproducts();
   $("#products").on("click", ".btn-danger", deleteproducts);
   $("#addpro").click(addproducts);
+  $("#add")
 });
 function loadproducts() {
   $.ajax({
@@ -53,4 +54,7 @@ function addproducts() {
       loadproducts();
     },
   });
+}
+function editproducts(){
+
 }
