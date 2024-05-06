@@ -55,6 +55,15 @@ function addproducts() {
     },
   });
 }
-function editproducts(){
-
+function editproducts(createTitle,createContent){
+  $.ajax({
+    url: "https://usmanlive.com/wp-json/api/stories",
+    method: "POST",
+    data: { title, descrip },
+    success: function (response) {
+      $("#createTitle").val("");
+      $("#createContent").val("");
+      loadproducts();
+    },
+  });
 }

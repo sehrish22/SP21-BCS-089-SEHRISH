@@ -3,6 +3,7 @@
     overflow: hidden;
     color: aquamarine;
     width: 20%;
+    border: 5px solid blue;
 }
 div{
     overflow: hidden;

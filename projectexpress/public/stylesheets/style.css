@@ -1,0 +1,456 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+p{
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+.first{
+  height: 35px;
+  padding: 5px;
+}
+#log{
+  float: right;
+  width: 10%;
+  background-color: white;
+  padding-top: 3%;
+  padding-bottom: 5.25%;
+}
+#search{
+  float: right;
+  width: 10%;
+  background-color: white;
+  padding-top: 3%;
+  padding-bottom: 5.25%;
+}
+#cart{
+  float: right;
+  width: 10%;
+  background-color: white;
+  padding-top: 3%;
+  padding-bottom: 5.25%;
+}
+#imag{
+  float: right;
+  width: 70%;
+  background-color: white;
+  padding-left: 20%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+#featured{
+  text-align: center;
+  background-color: white;
+}
+.out{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: aliceblue;
+  
+}
+.last{
+  background-color: black;
+  color: white;
+}
+#t1{
+  float: left;
+  width: 25%;
+  background-color: black;
+  color: white;
+  
+}
+#t2{
+  float: left;
+  width: 25%;
+  background-color: black;
+  color: white;
+  padding-bottom: 144px;
+}#t3{
+  float: left;
+  width: 25%;
+  background-color: black;
+  color: white;
+  padding-bottom: 120px;
+}#t4{
+  float: left;
+  width: 25%;
+  background-color: black;
+  color: white;
+  padding-bottom: 276px;
+}
+#sub{
+  background-color: burlywood;
+  color: white;
+}
+#h1{
+  text-align: center;
+  
+}
+
+.mid{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.items{
+
+  position: relative; 
+  width: 33.33%;
+  height: 100vh;
+
+}
+
+.backimg{
+  background-image: url("./images/background.webp");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  z-index: -99;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.trans{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255,255,255,0.5);
+}
+.centr{
+  text-align: center;
+  width: 20%;
+  height: 60%;
+  padding: 30px 10px 30px 10px ;
+  background-color: white;
+
+}
+.bg-1{
+  position: absolute;
+  background-image: url("./images/image1.webp");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  z-index: -99;
+
+}
+
+.txt-1{
+  padding-top: 50px;
+  position: absolute;
+  height: 40%;
+  width: 100%;
+  z-index: 100;
+  background-color: rgba(8, 8, 8, 0.589);
+  bottom: 0px;
+  text-align: center;
+  color: white;
+  z-index: -10;
+}
+.bg-2{
+  position: absolute;
+  background-image: url("./images/image2.webp");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  z-index: -99;
+
+}
+.bg-3{
+  position: absolute;
+  background-image: url("./images/image3.webp");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  z-index: -99;
+
+}
+.bg-4{
+  position: absolute;
+  background-image: url("./images/image4.webp");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  z-index: -99;
+
+}
+.bg-5{
+  position: absolute;
+  background-image: url("./images/image5.webp");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  z-index: -99;
+
+}
+.bg-6{
+  position: absolute;
+  background-image: url("./images/image6.webp");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  z-index: -99;
+
+}
+.bg-7{
+  position: absolute;
+  background-image: url("./images/image6.webp");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  z-index: -99;
+
+}
+.bg-8{
+  position: absolute;
+  background-image: url("./images/image8.webp");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  z-index: -99;
+
+}
+.bg-9{
+  position: absolute;
+  background-image: url("./images/image9.webp");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  z-index: -99;
+
+}
+.bg-10{
+  position: absolute;
+  background-image: url("./images/image10.webp");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  z-index: -99;
+
+}
+.bg-11{
+  position: absolute;
+  background-image: url("./images/image11.webp");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  z-index: -99;
+
+}
+.bottom{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.bgg-1{
+  position: absolute;
+  background-image: url("./images/i1.webp");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  z-index: -99;
+
+}
+.bgg-2{
+  position: absolute;
+  background-image: url("./images/i2.webp");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  z-index: -99;
+
+}
+.bgg-3{
+  position: absolute;
+  background-image: url("./images/image8.webp");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  z-index: -99;
+
+}
+.bgg-4{
+  position: absolute;
+  background-image: url("./images/i4.webp");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  z-index: -99;
+
+}
+.bgg-5{
+  position: absolute;
+  background-image: url("./images/i5.webp");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  z-index: -99;
+
+}
+.bgg-6{
+  position: absolute;
+  background-image: url("./images/i6.png");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  z-index: -99;
+
+}
+.bgg-7{
+  position: absolute;
+  background-image: url("./images/i7.webp");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  z-index: -99;
+
+}
+.bgg-8{
+  position: absolute;
+  background-image: url("./images/i8.webp");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  z-index: -99;
+
+}
+.bgg-9{
+  position: absolute;
+  background-image: url("./images/i9.webp");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  z-index: -99;
+
+}
+.ins{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+}
+
+.inst{
+  
+  height: 200px;
+  width: 200px;
+
+}
+.inn{
+  width: 200px;
+  height: 200px;
+}
+
+.footer{
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.f1, .f2, .f3, .f4{
+  width: 25%;
+  height: 90%;
+  padding: 10px;
+  
+
+}
+
+#fp-1{
+  margin: 0;
+  text-align: left;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.f2, .f4 {
+
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.f2 > a, .f4 > a{
+  width: 100%;
+  color:  black;
+
+}
+
+.nav{
+  width: 100%;
+  height: 15vh;
+  background-color: white;
+  text-align: center;
+}
+
+.navbar{
+  width: 100%;
+  text-align: center;
+}
+.row{
+  background-color: white;
+}
+.news{
+  background-color: white;
+  text-align: center;
+}
+.links{
+  padding-left: 15%;
+}
