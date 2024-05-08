@@ -1,0 +1,44 @@
+extends layout
+block content
+     
+            link(rel='stylesheet' href='form.css')
+            .container
+                h1 CONTACT US
+                form#contactForm
+                    div
+                        input#name(type='text' name='name' placeholder='Your Name')
+                        span#nameError.error
+                    div
+                        input#email(type='email' name='email' placeholder='Your Email')
+                        span#emailError.error
+                    div
+                        textarea#message(name='message' cols='30' rows='10')
+                        span#messageError.error
+                    input(type='submit' value='Submit')
+                script(src='https://code.jquery.com/jquery-3.6.0.min.js')
+                script.
+                $(document).ready(function(){
+                    $('#contactForm').submit(function(event){
+                        event.preventDefault();
+                        var name=$('#name').val();
+                        var email=$('#email').val();
+                        var message=$('#message').val();
+                        $('.error').text('')
+                        if(name.trim()==='')
+                        {
+                            $('#nameError').text('PLEASE ENTER YOUR NAME')
+                            return
+                        }
+                        if(email.trim()==='')
+                        {
+                            $('#emailError').text('PLEASE ENTER YOUR EMAIL')
+                            return
+                        }
+                        if(message.trim()==='')
+                        {
+                            $('#messageError').text('PLEASE ENTER YOUR MESSAGE')
+                            return
+                        }
+                        alert('Form Submitted successfuly')
+                    })
+                })

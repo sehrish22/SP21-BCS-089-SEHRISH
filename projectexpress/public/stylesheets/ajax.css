@@ -1,0 +1,12 @@
+#main{
+    background-image: url(./images/i5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -10;
+}
+#gg{
+    font-size: large;
+    color: whitesmoke;
+}

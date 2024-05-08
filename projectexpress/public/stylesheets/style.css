@@ -107,7 +107,7 @@ p{
 }
 
 .backimg{
-  background-image: url("./images/background.webp");
+  background-image: url("/images/background.webp");
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -136,7 +136,7 @@ p{
 }
 .bg-1{
   position: absolute;
-  background-image: url("./images/image1.webp");
+  background-image: url("/images/image1.webp");
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -160,7 +160,7 @@ p{
 }
 .bg-2{
   position: absolute;
-  background-image: url("./images/image2.webp");
+  background-image: url("/images/image2.webp");
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -171,7 +171,7 @@ p{
 }
 .bg-3{
   position: absolute;
-  background-image: url("./images/image3.webp");
+  background-image: url("/images/image3.webp");
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -182,7 +182,7 @@ p{
 }
 .bg-4{
   position: absolute;
-  background-image: url("./images/image4.webp");
+  background-image: url("/images/image4.webp");
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -193,7 +193,7 @@ p{
 }
 .bg-5{
   position: absolute;
-  background-image: url("./images/image5.webp");
+  background-image: url("/images/image5.webp");
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -204,7 +204,7 @@ p{
 }
 .bg-6{
   position: absolute;
-  background-image: url("./images/image6.webp");
+  background-image: url("/images/image6.webp");
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -215,7 +215,7 @@ p{
 }
 .bg-7{
   position: absolute;
-  background-image: url("./images/image6.webp");
+  background-image: url("/images/image6.webp");
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -226,7 +226,7 @@ p{
 }
 .bg-8{
   position: absolute;
-  background-image: url("./images/image8.webp");
+  background-image: url("/images/image8.webp");
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -237,7 +237,7 @@ p{
 }
 .bg-9{
   position: absolute;
-  background-image: url("./images/image9.webp");
+  background-image: url("/images/image9.webp");
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -248,7 +248,7 @@ p{
 }
 .bg-10{
   position: absolute;
-  background-image: url("./images/image10.webp");
+  background-image: url("/images/image10.webp");
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -259,7 +259,7 @@ p{
 }
 .bg-11{
   position: absolute;
-  background-image: url("./images/image11.webp");
+  background-image: url("/images/image11.webp");
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -276,7 +276,7 @@ p{
 }
 .bgg-1{
   position: absolute;
-  background-image: url("./images/i1.webp");
+  background-image: url("/images/i1.webp");
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -287,7 +287,7 @@ p{
 }
 .bgg-2{
   position: absolute;
-  background-image: url("./images/i2.webp");
+  background-image: url("/images/i2.webp");
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -298,7 +298,7 @@ p{
 }
 .bgg-3{
   position: absolute;
-  background-image: url("./images/image8.webp");
+  background-image: url("/images/image8.webp");
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -309,7 +309,7 @@ p{
 }
 .bgg-4{
   position: absolute;
-  background-image: url("./images/i4.webp");
+  background-image: url("/images/i4.webp");
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -320,7 +320,7 @@ p{
 }
 .bgg-5{
   position: absolute;
-  background-image: url("./images/i5.webp");
+  background-image: url("/images/i5.webp");
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -331,7 +331,7 @@ p{
 }
 .bgg-6{
   position: absolute;
-  background-image: url("./images/i6.png");
+  background-image: url("/images/i6.png");
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -342,7 +342,7 @@ p{
 }
 .bgg-7{
   position: absolute;
-  background-image: url("./images/i7.webp");
+  background-image: url("/images/i7.webp");
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -353,7 +353,7 @@ p{
 }
 .bgg-8{
   position: absolute;
-  background-image: url("./images/i8.webp");
+  background-image: url("/images/i8.webp");
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -364,7 +364,7 @@ p{
 }
 .bgg-9{
   position: absolute;
-  background-image: url("./images/i9.webp");
+  background-image: url("/images/i9.webp");
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -453,4 +453,7 @@ p{
 }
 .links{
   padding-left: 15%;
+}
+.reg{
+  margin-top: 10px;
 }
