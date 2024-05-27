@@ -1,0 +1,30 @@
+// views/products/search.pug
+html
+  head
+    title= title
+  body
+    h1 Search Products
+
+    // Search Form
+    form(action="/products/search", method="GET")
+      input(type="text", name="query", placeholder="Search for products...", value=query)
+      button(type="submit") Search
+
+    // Search Results
+    h2 Results for "#{query}":
+    ul
+      each product in products
+        li #{product.name} - $#{product.price}
+
+    // Pagination
+    div
+      if currentPage > 1
+        a(href=/products/search?query=${query}&page=${currentPage - 1}) Previous
+      if currentPage < totalPages
+        a(href=/products/search?query=${query}&page=${currentPage + 1}) Next
+
+    // Search History
+    h3 Search History
+    ul
+      each term in searchHistory
+        li= term

@@ -1,0 +1,40 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title Search Form
+  body
+    h1 Search Form
+    form(action="/search" method="POST")
+      input(type="text" name="query" placeholder="Enter search query" value=query || '')
+      button(type="submit") Search
+
+    if results
+      h2 Results:
+      if typeof results === 'string'
+        p= results
+      else
+        ul
+          each product in results
+            li= product.name
+
+      // Pagination controls
+      if totalPages > 1
+        nav
+          ul.pagination
+            if currentPage > 1
+              li
+                a(href=`/search?query=${query}&page=${currentPage - 1}`) Previous
+            each page in [...Array(totalPages).keys()].map(i => i + 1)
+              li(class=currentPage === page ? 'active' : '')
+                a(href=`/search?query=${query}&page=${page}`)= page
+            if currentPage < totalPages
+              li
+                a(href=`/search?query=${query}&page=${currentPage + 1}`) Next
+
+    if searchHistory.length
+      h2 Your Search History:
+      ul
+        each history in searchHistory
+          li= `${history.query} - ${history.searchedAt.toDateString()}`

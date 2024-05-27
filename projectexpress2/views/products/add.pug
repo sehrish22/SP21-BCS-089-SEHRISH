@@ -1,0 +1,15 @@
+extends ../layout 
+
+block content 
+    h1 ADD YOUR NEW PRODUCT HERE
+    form(action="/products/add",method="post")
+        .mb-3
+            label.form-label(for='name') Your Product
+            input#name.form-control(type='text',name="name")
+        .mb-3
+            label.form-label(for='price') Price
+            input#price.form-control(type='text',name="price")
+        .mb-3
+            label.form-label(for='price') Description
+            input#price.form-control(type='text',name="desc")
+        button.btn.btn-primary(type='submit') Submit

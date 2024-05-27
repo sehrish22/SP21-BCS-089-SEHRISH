@@ -1,0 +1,61 @@
+extends ../layout
+
+block content
+  .row
+    .col-sm-8
+      h1= title
+    .col-sm-4
+      a(href="/products/add", class="btn btn-success float-right") ADD NEW PRODUCT
+
+  .row
+    .col-sm-12
+      // Search Form
+      form(action="/products/search", method="GET", class="form-inline mb-3")
+        input(type="text", name="query", placeholder="Search for products...", class="form-control mr-2", value=query || "")
+        button(type="submit", class="btn btn-primary") Search
+
+  if products.length
+    table.table
+      thead
+        tr
+          th Name
+          th Price
+          th Description
+          th Actions
+      tbody
+        each product in products
+          tr
+            td= product.name
+            td= product.price
+            td= product.desc
+            td
+              a(href="/products/delete/#{product._id}", class="btn btn-danger") Delete
+              a(href="/products/edit/#{product._id}", class="btn btn-warning") Edit
+              a(href="/products/cart/#{product._id}", class="btn btn-info") Add to Cart
+  else
+    p No products available.
+
+  // Search Results Section
+  if query
+    h2 Results for "#{query}":
+    if searchResults.length
+      table.table
+        thead
+          tr
+            th Name
+            th Price
+            th Description
+        tbody
+          each product in searchResults
+            tr
+              td= product.name
+              td= product.price
+              td= product.desc
+    else
+      p No search results found.
+
+  // Search History
+  h3 Search History
+  ul
+    each term in searchHistory
+      li= term
