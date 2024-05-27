@@ -457,3 +457,63 @@ p{
 .reg{
   margin-top: 10px;
 }
+.bgM-1{
+  position: absolute;
+  background-image: url("/images/BGM1.webp");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  z-index: -99;
+}
+.bgM-2{
+  position: absolute;
+  background-image: url("/images/BGM2.webp");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  z-index: -99;
+}
+.bgM-3{
+  position: absolute;
+  background-image: url("/images/BGM3.webp");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  z-index: -99;
+}
+.bgM-4{
+  position: absolute;
+  background-image: url("/images/BGM4.webp");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  z-index: -99;
+}
+.bgM-5{
+  position: absolute;
+  background-image: url("/images/BGM5.webp");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  z-index: -99;
+}
+.bgS-5{
+  position: absolute;
+  background-image: url("/images/BGS.webp");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  z-index: -99;
+}

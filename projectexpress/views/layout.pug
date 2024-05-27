@@ -29,13 +29,17 @@ html
             #navbarNavDropdown.collapse.navbar-collapse
               ul.navbar-nav
                 li.nav-item
-                  a.nav-link.active(aria-current='page' href='/products') ITEMS UNDER PKR.2000
+                  a.nav-link.active(aria-current='page' href='/products') CRUD
                 li.nav-item
-                  a.nav-link.active(href='#') UPTO 80% OFF
-                li.nav-item
-                  a.nav-link.active(href='#') OFFERS
-                li.nav-item
-                  a.nav-link.active(href='#') ALL DEALS
+                  a.nav-link.active(href='/cart') MY CART
+                if !user
+                  li.nav-item
+                    a.nav-link.active(href='/register') REGISTRATION
+                  li.nav-item
+                    a.nav-link.active(href='/login') LOGIN
+                if user 
+                  li.nav-item
+                    a.nav-link.active(href='/logout') LOGOUT
                 li.nav-item.dropdown
                   a.nav-link.active.dropdown-toggle(href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false') SHOP ALL
                   ul.dropdown-menu
@@ -90,9 +94,9 @@ html
                   a.nav-link.active.dropdown-toggle(href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false') HAIRCARE
                   ul.dropdown-menu
                     li
-                      a.dropdown-item(href='#') BBA HAIRCARE
+                      a.dropdown-item(href='/haircare') BBA HAIRCARE
                     li
-                      a.dropdown-item(href='#') TVAL HAIR SERUM AND MIST
+                      a.dropdown-item(href='/mist') TVAL HAIR SERUM AND MIST
                     li
                       a.dropdown-item(href='#') HAIR SHAMPOO
                     li
